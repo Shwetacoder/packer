@@ -17,12 +17,7 @@
    "ssh_username": "ec2-user",
    "ami_name": "packkerwithapache {{timestamp}}"
  }],
- "Tags": [
-                    {
-                        "Key": "Schedule",
-                        "Value": "Bangalore-office-hours"
-                    }
-                ]
+
 "provisioners": [{
    "type": "shell",
    "inline":[
