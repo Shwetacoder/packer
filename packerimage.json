@@ -11,8 +11,8 @@
    "ssh_pty": "true",
    "access_key": "{{user `aws_access_key`}}",
    "secret_key": "{{user `aws_secret_key`}}",
-   "region": "us-east-1",
-   "source_ami": "ami-03ededff12e34e59e",
+   "region": "us-west-1",
+   "source_ami": "ami-06542a822d33e2e40",
    "instance_type": "t2.micro",
    "ssh_username": "ec2-user",
    "ami_name": "packkerwithapache {{timestamp}}"
