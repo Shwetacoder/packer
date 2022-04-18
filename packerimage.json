@@ -1,8 +1,8 @@
 {
 
  "variables": {
- "aws_access_key": "AKIA3LMEU56B7KNOQWVE",
-   "aws_secret_key": "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"
+ "aws_access_key": "{{env `AWS_ACCESS_KEY_ID`}}",
+ "aws_secret_key": "{{env `AWS_SECRET_ACCESS_KEY`}}"
  },
 
  "builders": [{
